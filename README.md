@@ -12,7 +12,7 @@ _This web application will take a number given by the user, and return consecuti
 
 | Behavior | Input | Output |
 |----------|-------|--------|
-| Alert is displayed when the user inputs anything that is not a number. | A | Please enter a number! |
+| Alert is displayed when the user leaves the field blank. | A | Please enter a number! |
 | Display a range of numbers from 0 to the user's number. | 5 | 1, 2, 3, 4, 5 |
 | Replace all numbers that contain a 1, with, "_Beep!_" | 1 | _Beep!_ |
 | Replace all numbers that contain a 2 with, "_Boop!_" | 2 | _Boop!_ |
