@@ -31,18 +31,11 @@ function numberCheck(userNumber) {
  };
 
  function exceptionTwo(userNumber) {
-  var numbers = [];
-  for (var index = 0; index < userNumber; index++) {
-    numbers.push(index);
- }
+  
 
 
  function exceptionOne(userNumber) {
-  var numbers = [];
-  for (var index = 0; index < userNumber; index++) {
-    numbers.push(index);
- }
-
+  
 
 
 $(document).ready(function() {
