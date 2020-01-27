@@ -5,7 +5,7 @@ function exceptionThree(userNumber) {
   } else {
     var output = exceptionTwo(userNumber);
     return output
-  }
+  };
 };
 
 function exceptionTwo(userNumber) {
@@ -15,7 +15,7 @@ function exceptionTwo(userNumber) {
   } else {
     var output = exceptionOne(userNumber);
     return output
-  }
+  };
 };
 
 function exceptionOne(userNumber) {
