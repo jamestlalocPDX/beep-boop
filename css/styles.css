@@ -1,11 +1,13 @@
 body {
   background-image: url(../img/background.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: inherit;
   font-family: cursive;
 }
-#output {
-  display: none;
+.output {
+  font-size: 20px;
+  float: right;
+  color: black;
 }
 h1 {
   text-align: center;
@@ -25,3 +27,4 @@ h1 {
   color: black;
   font-size: 20px;
 }
+

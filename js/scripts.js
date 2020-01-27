@@ -42,10 +42,13 @@ $(document).ready(function() {
   $("form#input").submit(function(event) {
     event.preventDefault();
     var userNumber = $("input#number").val();
+    var rangeNumbers = numberCheck(userNumber);
     if (!userNumber) {
       alert("Please enter a number.");
     } else {
-        alert(numberCheck(userNumber));
+        rangeNumbers.forEach(function(rangeNumber) {
+          $(".output").append("<li>" + rangeNumber + "</li>");
+        });
     };
   });
 });
