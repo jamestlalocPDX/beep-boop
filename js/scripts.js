@@ -2,6 +2,13 @@ function exceptionThree(userNumber) {
 };
 
 function exceptionTwo(userNumber) {
+  if (userNumber.includes(2)) {
+    var output = ("Boop!");
+    return output
+  } else {
+    var output = exceptionOne(userNumber);
+    return output
+  }
 };
 
 function exceptionOne(userNumber) {
@@ -18,7 +25,7 @@ function numberCheck(userNumber) {
   var range = [];
     for (var index = 0; index < userNumber; index++) {
       var index = index.toString();
-      var display = exceptionOne(index);
+      var display = exceptionTwo(index);
             range.push(display);
     }
     return range
