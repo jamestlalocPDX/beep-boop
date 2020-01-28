@@ -35,7 +35,7 @@ Copy and paste `https://jonathancarlos21.github.io/beep-boop` into your address 
 
 ## **Known Bugs**
 
-This program has not been able to display the value for the user's number, only the numbers and exceptions before the given number.
+There are no known bugs at this time.
 
 ## **Support and contact details**
 
