@@ -13,7 +13,7 @@ _This web application will take a number given by the user, and return a range o
 | Behavior | Input | Output |
 |----------|:-----:|--------|
 | Alert is displayed when the user leaves the field blank. | - | Please enter a number! |
-| Display a range of numbers from 0 to the user's number. | 5 | 1, 2, 3, 4, 5 |
+| Display a range of numbers from 0 to the user's number. | 5 | 0, 1, 2, 3, 4, 5 |
 | Replace all numbers that contain a 1, with, "_Beep!_" | 1 | _Beep!_ |
 | Replace all numbers that contain a 2 with, "_Boop!_" | 2 | _Boop!_ |
 | Replace all numbers that contain a 3 with, "_I'm sorry, Dave. I'm afraid I can't do that._" | 3 | "_I'm sorry, Dave. I'm afraid I can't do that._" |
