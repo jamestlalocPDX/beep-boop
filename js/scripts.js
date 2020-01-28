@@ -46,6 +46,7 @@ $(document).ready(function() {
     if (!userNumber) {
       alert("Please enter a number.");
     } else {
+      $(".output").empty();
         rangeNumbers.forEach(function(rangeNumber) {
           $(".output").append("<li>" + rangeNumber + "</li>");
         });
