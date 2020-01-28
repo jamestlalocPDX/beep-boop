@@ -20,13 +20,18 @@ _This web application will take a number given by the user, and return a range o
 
 ## **Setup/Installation**
 
+*Option One:*
 1. Step one: Open up your terminal.
 2. Step two: Navigate to the desired directory in which you want to clone this repository.
 3. Step three: Use `git clone https://github.com/jonathancarlos21/beep-boop` to clone this repository.
 4. Step four: Open the repository.
 5. Step five: Drag the html file into your broswer. 
 6. Step six: Enter a number into the text-field. 
-7. Step seven: Click "Beep-Boop!" 
+7. Step seven: Click "Beep-Boop!"
+
+*Option Two:*
+
+Copy and paste `https://jonathancarlos21.github.io/beep-boop` into your address bar.
 
 ## **Known Bugs**
 
