@@ -30,7 +30,7 @@ function exceptionOne(userNumber) {
 
 function numberCheck(userNumber) {
   var range = [];
-    for (var index = 0; index < userNumber; index++) {
+    for (var index = 0; index <= userNumber; index++) {
       var index = index.toString();
       var display = exceptionThree(index);
         range.push(display);
